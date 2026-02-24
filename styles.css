@@ -52,6 +52,7 @@ a {
 .main-1-intro {
     text-align: left;
     padding-right: 70px;
+    gap: 30px;
 }
 
 p {
@@ -77,4 +78,91 @@ p {
     text-align: center;
     padding: 70px 150px;
     background-color: white;
+}
+
+.all-gains {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.gain img {
+  width: 200px; /* Desired width of the cropped area */
+  height: 150px; /* Desired height of the cropped area */
+  border: 10px solid #1f2937;
+}
+
+.main-3 {
+    text-align: center;
+    padding: 70px 300px;
+    background-color: lightgray;
+}
+
+.quote {
+    font-size: 50px;
+    font-style: italic;
+    color: #333;
+    font-style: italic;
+    
+}
+
+.author {
+    font-size: 20px;
+    color: #666;
+    margin-top: 10px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.main-4 {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 70px 300px;
+    padding: 10px 100px;
+    background-color: #3882f6;
+    align-content: center;    
+    border-radius: 5px;
+}
+
+
+.text-part {
+    text-align: left;
+    padding-right: 70px;
+    gap: 30px;
+    align-content: center;
+    color: white;
+}
+
+.text-part p {
+    color: white;
+}
+
+.cta-button-2 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3882f6;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline from links */
+    margin: 100px 60px;
+    align-content: center;
+    width: 500px;
+    border: white solid 2px;
+}
+
+.footer {
+    align-content: center;
+    background-color: #1f2937;
+    color: #fff;
+    margin: 0px;
+    align-items: center;
+}
+
+.footer p {
+    text-align: center;
+    color: white
 }
